@@ -1,0 +1,46 @@
+
+2019/4/15
+  File "/Users/chenxuanhuai/Documents/PycharmProjects/Py/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/main/run_test.py", line 26, in go_on_run
+    res = self.run_method.run_main(method,url,data=None,header=None)
+TypeError: run_main() missing 1 required positional argument: 'url'
+思路： 去下一个视频看看有没有不一样的地方
+发现： 7-10开头的两分钟的代码，和7-9结尾的有不一样的。但视频里是可以执行的，不知道是不是p2和p3的差别。
+
+#18:15 2019/3/28
+问题：
+解决途径和时间：
+
+
+code汇总
+code中注释，详细的知识可指向《文件》
+
+20:23 2019/3/10
+python2->3 :  file ->open
+add, ,push and commit, push 注意选择文件
+没有HTMLtestreport，1.py文件用的python2，需要修改 2.run(suite) 3.执行时不用unittest
+
+0318 16:21
+只听6-4 mock重构的，需要理解。
+（把各个方法mock，在测试各个用例中可以直接用）
+只听7-2 excel重构
+
+15:32 2019/3/19
+循环条件时，要注意是行数还是列数
+
+路径".."上一层
+路径"."本层
+
+os.walk():
+这个方法返回的是一个三元tupple(dirpath, dirnames, filenames),
+dirpath是一个string，代表目录的路径,
+dirnames是一个list，包含了dirpath下所有子目录的名字,
+filenames是一个list，包含了非目录文件的名字.这些名字不包含路径信息
+,如果需要得到全路径,需要使用 os.path.join(dirpath, name).
+
+14:59 2019/3/20
+PS:所有Windows下的文件路径，一律用双反斜杠。
+如filename = 'c:\\setup.log'
+
+8:18 2019/4/15
+ctrl+左键，无法跳转
+确保打开目录为工程目录，不要打开上一级文件夹 
