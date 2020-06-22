@@ -12,13 +12,13 @@ class OperetionJson:
 	#读取json文件
 	def read_data(self):
 		with open(self.file_path) as fp:
-			data = json.load(fp)
+			data = json.load(fp)  # data是<class 'dict'>
 			return data
 
 	#根据关键字获取数据
 	def get_data(self,id):
-		print (type(self.data))
-		return self.data[id]
+		# return self.data[id]
+		return self.data.get(id)  # 字典的get方法
 
 	#写json
 	def write_data(self,data):
